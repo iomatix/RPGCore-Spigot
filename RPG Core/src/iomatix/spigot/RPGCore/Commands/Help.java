@@ -39,7 +39,8 @@ public class Help {
 		if (page == PageType.CMDS.getValue()) {
 
 			sender.sendMessage(ChatColor.YELLOW + "| Commands |");
-			sender.sendMessage(ChatColor.GOLD + "/rpgcore help [page] " + ChatColor.GREEN + "-> shows help and more detailed information");
+			sender.sendMessage(ChatColor.GOLD + "/rpgcore help [page] " + ChatColor.GREEN
+					+ "-> shows help and more detailed information");
 			sender.sendMessage(ChatColor.GOLD + "/rpgcore reload " + ChatColor.GREEN + "-> reloads the config file");
 
 		} else if (page == PageType.DONATE.getValue()) {
@@ -53,8 +54,9 @@ public class Help {
 			sender.sendMessage(ChatColor.RED + "This page is empty!");
 
 		}
-		sender.sendMessage(ChatColor.DARK_GREEN + "------------ " + ChatColor.GREEN + "RPG Core " + ChatColor.GRAY + "| "
-				+ ChatColor.DARK_GREEN + "Page " + ChatColor.GREEN + page + ChatColor.DARK_GREEN + " ------------");
+		sender.sendMessage(ChatColor.DARK_GREEN + "------------ " + ChatColor.GREEN + "RPG Core " + ChatColor.GRAY
+				+ "| " + ChatColor.DARK_GREEN + "Page " + ChatColor.GREEN + page + ChatColor.DARK_GREEN
+				+ " ------------");
 	}
 
 }
