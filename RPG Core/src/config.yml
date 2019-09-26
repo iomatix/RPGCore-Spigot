@@ -1,0 +1,98 @@
+# RPGCore default config file
+# Env damage settings taken by ALL ENTITIES (Mobs and players)
+# Damage formula is: Damage taken from event multiplied by max health and the percent value. 
+# Causes are described below:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+env-damage-settings:
+  #
+  # Drowning Damage
+    # eg. true enables the modifier, false disables changes
+  drowning: true
+    # eg. 3% = 3.0
+  drowning-percent: 3.0
+  #
+  # Dryout Damage (Taken by sea fauna if out of water)
+  dryout: true
+  dryout-percent: 3.0
+  #
+  # Falling Damage
+  fall: true
+  fall-percent: 5.0
+  #
+  # Falling Block Damage (Caused by being hit by a falling block)
+  falling-block: true
+  falling-block-percent: 10.0
+  #
+  # Fire Damage
+  #
+  # Fire Source Damage (When entity is standing inside of the fire source)
+  fire: true
+  fire-percent: 5.0
+  #
+  # Fire Tick Damage (When entity is burning)
+  fire-tick: true
+  fire-tick-percent: 3.0
+  #
+  # Fly Into Wall Damage
+  fly-into-wall: true
+  fly-into-wall-percent: 15.0
+  #
+  # Hot Floor Damage (When entity is standing on the magma block)
+  hot-floor: true
+  hot-floor-percent: 1.0
+  #
+  # Contact Damage (When entity is touching cactus or block casuing damage eg. berries )
+  contact: true
+  contact-percent: 2.0
+  #
+  # Lava Damage
+  lava: true
+  lava-percent: 10.0
+  #
+  # Lightning Damage
+  lightning: true
+  lightning-percent: 15.0
+  #
+  # Melting Damage (Taken by snowman when out of snow)
+  melting: true
+  melting-percent: 3.0
+  #
+  # Void Damage (Taken if entity is out of world)
+  void: true
+  void-percent: 10.0
+  #
+  # Starvation Damage (Taken if entity is out of food)
+  starvation: true
+  starvation-percent: 1.5
+  #
+  # Block Explosion Damage (Taken from explosives)
+  block-explosion: true
+  block-explosion-percent: 20.0
+  #
+  # Cramming Damage (When entity is colliding with too many entities due to the maxEntityCramming game rule)
+  cramming: true
+  cramming-percent: 2.0
+  #
+  # Dragon Breath Damage (Damage caused by a dragon breathing fire)
+  dragon-breath: true
+  dragon-breath-percent: 3.5
+  #
+  # Magic Damage (Damage caused by a potions or spells)
+  magic: true
+  magic-percent: 3.0
+  #
+  # Poison Damage
+  poison: true
+  poison-percent: 2.5
+  #
+  # Wither Damage (Wither effect damage)
+  wither: true
+  wither-percent: 3.5
+  #
+  # Thorns Damage (Thorns enchantment damage)
+  thorns: true
+  thorns-percent: 1.0
+  #
+  # Suffocation Damage (When entity stucked in the block)
+  suffocation: true
+  suffocation-percent: 2.5

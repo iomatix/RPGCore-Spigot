@@ -1,0 +1,11 @@
+main: iomatix.spigot.RPGCore.Main
+name: RPGCore
+version: 1.0
+api-version: 1.14
+author: iomatix
+description: RPGCore plugin.
+commands:
+  rpgcore:
+    description: RPG Core command prefix.
+    permission: rpgcore.admin
+    permission-message: You do not have rpgcore permission to use the RPGCore plugin.
