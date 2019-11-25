@@ -8,7 +8,7 @@ env-damage-settings:
   # Drowning Damage
     # eg. true enables the modifier, false disables changes
   drowning: true
-    # eg. 3% = 3.0
+   # eg. 3% = 3.0
   drowning-percent: 3.0
   #
   # Dryout Damage (Taken by sea fauna if out of water)
@@ -96,3 +96,44 @@ env-damage-settings:
   # Suffocation Damage (When entity stucked in the block)
   suffocation: true
   suffocation-percent: 2.5
+# Healing settings
+# Healing formula is: Health gain from event multiplied by max health and the percent value. 
+# Causes are described below:
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityRegainHealthEvent.RegainReason.html
+regen-settings:
+  #
+  # Custom (eg. Another plugin)
+  custom: false
+  custom-percent: 0.0
+  #
+  # Food
+  eating: true
+  eating-percent: 5.0
+  #
+  # Ender Dragon healing by crystals 
+  ender-crystal: true
+  ender-crystal-percent: 15.0
+  #
+  # Magic (Potion and spells)
+  magic: true
+  magic-percent: 5.0
+  #
+  # Magic Regen (Healed overtime by a potion or spell)
+  magic-regen: true
+  magic-regen-percent: 3.5
+  #
+  # Regen (Peaceful mode regeneration)
+  regen: true
+  regen-percent: 3.5
+  #
+  # Satiated (Regenerating health due to their hunger being satisfied)
+  satiated: true
+  satiated-percent: 3.0
+  #
+  # Wither (Wither effect healing)
+  wither: true
+  wither-percent: 3.0
+  #
+  # Wither Spawn (Wither is filling its health during spawning)
+  wither-spawn: true
+  wither-spawn-percent: 3.5
