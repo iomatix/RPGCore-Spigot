@@ -47,14 +47,6 @@ public class HealingModule {
 		settings.addDefault(path + "wither-percent", 3.0);
 		settings.addDefault(path + "wither-spawn", true);
 		settings.addDefault(path + "wither-spawn-percent", 3.5);
-		settings.addDefault(path + "fall", true);
-		settings.addDefault(path + "fall-percent", 5.0);
-		settings.addDefault(path + "fall", true);
-		settings.addDefault(path + "fall-percent", 5.0);
-		settings.addDefault(path + "fall", true);
-		settings.addDefault(path + "fall-percent", 5.0);
-		settings.addDefault(path + "fall", true);
-		settings.addDefault(path + "fall-percent", 5.0);
 
 		settings.options().copyDefaults(true);
 		Main.instance.saveConfig();
